@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Mochiy+Pop+One&display=swap");
+
+:root {
+  --Primary-Font: "Mochiy Pop One";
+  --Secondary-Font: "Hachi Maru Pop";
+}
+
+* {
+  font-family: var(--Primary-Font);
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #739072;
+}
