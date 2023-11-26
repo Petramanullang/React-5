@@ -1,4 +1,4 @@
-import Navbar from "../../assets/Navbar/Navbar";
+import Navbar from "../components/Navbar";
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
@@ -68,9 +68,7 @@ export default function Login() {
       {success.length ? (
         <h1 className="text-2xl text-center">
           {success} <br />
-          <span className="text-green-400 text-base">
-            GG Bro
-          </span>
+          <span className="text-green-400 text-base">GG Bro</span>
         </h1>
       ) : null}
       <div className="login-wrapper flex justify-center mt-28">

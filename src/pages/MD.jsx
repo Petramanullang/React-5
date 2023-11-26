@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import Navbar from "../../assets/Navbar/Navbar";
+import Navbar from "../components/Navbar";
 
 export default function UD() {
   const [menus, setMenus] = useState({});
