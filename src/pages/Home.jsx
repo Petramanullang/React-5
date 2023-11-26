@@ -20,7 +20,7 @@ export default function Home() {
   const getMenus = () => {
     axios
       .get(
-        `https://api.mudoapi.tech/menus?name=&type=&perPage=10&page=${paging.currentPage}`
+        `https://api.mudoapi.tech/menus?name=&type=&perPage=5&page=${paging.currentPage}`
       )
       .then((response) => {
         setMenus(response.data.data.Data);
